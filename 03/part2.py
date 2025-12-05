@@ -2,7 +2,6 @@
 
 import argparse
 import sys
-import itertools
 
 
 def _max(bank: list[int], k=12) -> int:
