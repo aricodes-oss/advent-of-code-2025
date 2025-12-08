@@ -8,10 +8,6 @@ type Grid = list[list[str]]
 ROLL = "@"
 
 
-def _bounds(grid):
-    print([len(grid[0]), len(grid)])
-
-
 def _inbounds(grid: Grid, x: int, y: int) -> bool:
     return (y >= 0 and x >= 0) and (y < len(grid[0]) and x < len(grid))
 
